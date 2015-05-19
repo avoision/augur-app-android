@@ -1,0 +1,6 @@
+node_modules
+_assets
+_reference
+.env
+augur-app.keystore
+spec
