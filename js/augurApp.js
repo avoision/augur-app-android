@@ -72,10 +72,10 @@ function recheckConnection() {
 // Orientation
 // ===========================
 function orientationChange(e) {
-    if (e.orientation) {    
+    // if (e.orientation) {    
         centerAdvice();
         centerPreloader(false);
-    };
+    // };
 };
 
 
