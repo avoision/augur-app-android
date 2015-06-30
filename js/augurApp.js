@@ -3,7 +3,7 @@
 // ===========================
 var appInit = true,
     clickable = false,
-    isTest = true,
+    isTest = false,
     visionsURL = "https://s3-us-west-2.amazonaws.com/avoision-augur/visions.json",
     meterPadding = 20,
     visionPadding = 20,
