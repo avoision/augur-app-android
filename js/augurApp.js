@@ -36,7 +36,9 @@ $(document).ready(function() {
 
 // Device Ready           
 function onDeviceReady() {
-    $(window).bind('orientationchange', orientationChange);
+    // $(window).bind('orientationchange', orientationChange);
+    window.addEventListener("orientationchange", orientationChange, true);
+
     navigator.splashscreen.hide();
     
     if (checkConnection()) {
@@ -72,7 +74,6 @@ function recheckConnection() {
 // Orientation
 // ===========================
 function orientationChange(e) {
-    alert ("orientation change!");
     if (e.orientation) {    
         centerAdvice();
         centerPreloader(false);
