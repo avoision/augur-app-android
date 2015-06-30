@@ -36,6 +36,7 @@ $(document).ready(function() {
 
 // Device Ready           
 function onDeviceReady() {
+    alert("device ready!");
     $(window).bind('orientationchange', orientationChange);
     navigator.splashscreen.hide();
     
